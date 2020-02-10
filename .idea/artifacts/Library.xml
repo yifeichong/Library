@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Library">
+    <output-path>$PROJECT_DIR$/out/artifacts/Library</output-path>
+    <root id="root">
+      <element id="dir-copy" path="$PROJECT_DIR$/out/artifacts/1223_war_exploded/WEB-INF" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="module-output" name="Library" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Library/web/Web2" />
+      <element id="javaee-facet-resources" facet="Library/web/Web" />
+    </root>
+  </artifact>
+</component>
